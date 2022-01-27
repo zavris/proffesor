@@ -1,0 +1,39 @@
+print("FINDING DIFFICULTIES CALCULATING YOUR GPA ")
+print("WE WILL HELP YOU TO CALCULATE IT")
+print ("1.% TO GPA")
+print ("2.GPA TO %")
+choice=int(input("ENTER YOUR CHOICE 1 OR 2 "))
+if choice ==1:
+    print("1.PERCENTAGE  TO GPA BASED ON 4 GRADE POINTS")
+    print("2.PERCENTAGE  TO GPA BASED ON 10 GRADE POINTS")
+    choice=int(input("ENTER YOUR CHOICE 1 OR 2 "))
+    per=float(input("ENTER YOUR %"))
+    
+    if choice ==1:
+        gpa = (per/20)-1
+
+        print("YOUR GPA IS ", gpa)
+        print("THANK YOU ")
+    
+    else:
+        gpa2=per/9.5
+        print("YOUR GPA IS ", gpa2)
+        print("THANK YOU USING ")
+        
+else:
+    print("1.GPA BASED ON 4 GRADE POINTS TO PERCENTAGE")
+    print("2.GPA BASED ON 10 GRADE POINTS TO  PERCENTAGE")
+    choice=int(input("ENTER YOUR CHOICE 1 OR 2 "))
+    gpa2=float(input("ENTER YOUR GPA"))
+    
+    if choice ==1:
+        perc1 = (gpa2+1)*20
+        print("YOUR PERCANTAGE IS ", perc1)
+        print("THANK YOU ")
+    
+    else:
+       11
+       perc2=gpa2*9.5
+       print("YOUR PERCANTAGE IS ", perc2)
+       print("THANK YOU USING ")
+
